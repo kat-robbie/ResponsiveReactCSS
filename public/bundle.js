@@ -56,11 +56,11 @@
 	
 	var _redux = __webpack_require__(191);
 	
-	var _reducers = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./reducers\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+	var _reducers = __webpack_require__(214);
 	
 	var _reducers2 = _interopRequireDefault(_reducers);
 	
-	var _App = __webpack_require__(214);
+	var _App = __webpack_require__(215);
 	
 	var _App2 = _interopRequireDefault(_App);
 	
@@ -23787,19 +23787,68 @@
 
 	'use strict';
 	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _redux = __webpack_require__(191);
+	
+	exports.default = (0, _redux.combineReducers)({});
+
+/***/ }),
+/* 215 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
 	var _react = __webpack_require__(1);
 	
 	var _react2 = _interopRequireDefault(_react);
+	
+	var _Home = __webpack_require__(216);
+	
+	var _Home2 = _interopRequireDefault(_Home);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	function App() {
 	  return _react2.default.createElement(
 	    'div',
-	    null,
-	    'Heyyyyyyyyy'
+	    { className: 'app-container' },
+	    _react2.default.createElement(_Home2.default, null)
 	  );
 	}
+	
+	exports.default = App;
+
+/***/ }),
+/* 216 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__(1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var Home = function Home() {
+	  return _react2.default.createElement(
+	    "div",
+	    { className: "homepage" },
+	    "Heyyyyyyyyy"
+	  );
+	};
+	exports.default = Home;
 
 /***/ })
 /******/ ]);
