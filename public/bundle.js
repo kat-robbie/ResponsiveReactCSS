@@ -23845,7 +23845,7 @@
 	  return _react2.default.createElement(
 	    "div",
 	    { className: "homepage" },
-	    "Heyyyyyyyyy"
+	    "Testing all of the things."
 	  );
 	};
 	exports.default = Home;

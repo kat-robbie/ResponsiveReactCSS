@@ -4,7 +4,7 @@ import React from 'react'
 const Home = () => {
   return (
     <div className="homepage">
-       Heyyyyyyyyy
+       Testing all of the things.
     </div>
   )
 }
