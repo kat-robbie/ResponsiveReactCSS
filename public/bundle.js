@@ -23809,9 +23809,13 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _Home = __webpack_require__(216);
+	var _Header = __webpack_require__(216);
 	
-	var _Home2 = _interopRequireDefault(_Home);
+	var _Header2 = _interopRequireDefault(_Header);
+	
+	var _Main = __webpack_require__(217);
+	
+	var _Main2 = _interopRequireDefault(_Main);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -23819,7 +23823,8 @@
 	  return _react2.default.createElement(
 	    'div',
 	    { className: 'app-container' },
-	    _react2.default.createElement(_Home2.default, null)
+	    _react2.default.createElement(_Header2.default, null),
+	    _react2.default.createElement(_Main2.default, null)
 	  );
 	}
 	
@@ -23841,14 +23846,39 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
-	var Home = function Home() {
+	var Header = function Header() {
 	  return _react2.default.createElement(
 	    "div",
-	    { className: "homepage" },
-	    "Testing all of the things."
+	    { className: "header" },
+	    "Heading the page!"
 	  );
 	};
-	exports.default = Home;
+	exports.default = Header;
+
+/***/ }),
+/* 217 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__(1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var Main = function Main() {
+	  return _react2.default.createElement(
+	    "div",
+	    { className: "main" },
+	    "Main main main main"
+	  );
+	};
+	exports.default = Main;
 
 /***/ })
 /******/ ]);

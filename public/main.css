@@ -1,7 +1,11 @@
 .app-container {
-  background-color: #98afd6;
+  background-color: blue;
 }
 
-.homepage {
-  background-color: #9f8bba;
+.header {
+  background-color: green;
+}
+
+.main {
+  background-color: gray;
 }
