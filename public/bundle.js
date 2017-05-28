@@ -23817,6 +23817,10 @@
 	
 	var _Main2 = _interopRequireDefault(_Main);
 	
+	var _Aside = __webpack_require__(218);
+	
+	var _Aside2 = _interopRequireDefault(_Aside);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	function App() {
@@ -23824,7 +23828,8 @@
 	    'div',
 	    { className: 'app-container' },
 	    _react2.default.createElement(_Header2.default, null),
-	    _react2.default.createElement(_Main2.default, null)
+	    _react2.default.createElement(_Main2.default, null),
+	    _react2.default.createElement(_Aside2.default, null)
 	  );
 	}
 	
@@ -23879,6 +23884,31 @@
 	  );
 	};
 	exports.default = Main;
+
+/***/ }),
+/* 218 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__(1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var Aside1 = function Aside1() {
+	  return _react2.default.createElement(
+	    "div",
+	    { className: "aside1" },
+	    "Aside1"
+	  );
+	};
+	exports.default = Aside1;
 
 /***/ })
 /******/ ]);
