@@ -4,6 +4,7 @@ import Header from './Header'
 import Main from './Main'
 import Aside1 from './Aside1'
 import Aside2 from './Aside2'
+import Footer from './Footer'
 
 
 function App () {
@@ -13,6 +14,7 @@ function App () {
       <Main />
       <Aside1 />
       <Aside2 />
+      <Footer />
     </div>
   )
 }
