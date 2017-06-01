@@ -3,21 +3,21 @@
 }
 
 .header {
-  background-color: green;
+  background-color: #FF6347;
 }
 
 .main {
-  background-color: blue;
+  background-color: #00BFFF;
 }
 
 .aside1 {
-  background-color: yellow;
+  background-color: #FFD700;
 }
 
 .aside2 {
-  background-color: red;
+  background-color: #FF69B4;
 }
 
 .footer {
-  background-color: orange;
+  background-color: #90EE90;
 }

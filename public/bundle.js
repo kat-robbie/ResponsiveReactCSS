@@ -23834,7 +23834,7 @@
 	function App() {
 	  return _react2.default.createElement(
 	    'div',
-	    { className: 'app-container' },
+	    { className: 'wrapper' },
 	    _react2.default.createElement(_Header2.default, null),
 	    _react2.default.createElement(_Main2.default, null),
 	    _react2.default.createElement(_Aside2.default, null),
@@ -23865,7 +23865,7 @@
 	  return _react2.default.createElement(
 	    "div",
 	    { className: "header" },
-	    "Heading the page!"
+	    "Header"
 	  );
 	};
 	exports.default = Header;
@@ -23890,7 +23890,7 @@
 	  return _react2.default.createElement(
 	    "div",
 	    { className: "main" },
-	    "Main main main main"
+	    "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
 	  );
 	};
 	exports.default = Main;
