@@ -23865,7 +23865,49 @@
 	  return _react2.default.createElement(
 	    "div",
 	    { className: "header" },
-	    "Header"
+	    "Header",
+	    _react2.default.createElement(
+	      "div",
+	      { "class": "detail-pair" },
+	      _react2.default.createElement(
+	        "label",
+	        { "class": "detail-pair-label", "for": "detail-pair-value-1" },
+	        "Select Role"
+	      ),
+	      _react2.default.createElement(
+	        "div",
+	        { "class": "detail-pair-value" },
+	        _react2.default.createElement(
+	          "select",
+	          { "class": "select custom-select menumapping1", id: "menumapping1", name: "mapping1" },
+	          _react2.default.createElement(
+	            "option",
+	            { selected: "selected", value: "1" },
+	            "Manager"
+	          ),
+	          _react2.default.createElement(
+	            "option",
+	            { value: "3" },
+	            "Teacher"
+	          ),
+	          _react2.default.createElement(
+	            "option",
+	            { value: "4" },
+	            "Non-editing teacher"
+	          ),
+	          _react2.default.createElement(
+	            "option",
+	            { value: "5" },
+	            "Student"
+	          ),
+	          _react2.default.createElement(
+	            "option",
+	            { value: "0" },
+	            "None"
+	          )
+	        )
+	      )
+	    )
 	  );
 	};
 	exports.default = Header;
